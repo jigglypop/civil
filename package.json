@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jigglypop.github.io/civilwar/",
+  "homepage": "https://jigglypop.github.io/civil/",
   "scripts": {
     "test": "jest --config=jest.config.js",
     "start": "http-server . -c-1",

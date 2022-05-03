@@ -131,7 +131,7 @@ body {
 .title {
   margin-top: 20rem;
   color: white;
-  font-size: 2.5rem;
+  font-size: 5rem;
   z-index: 10;
   text-shadow: 0 0 10px white;
   animation: blink 1s linear infinite;
@@ -143,6 +143,19 @@ body {
 
 .title h1 {
   margin: 0;
+    background: linear-gradient(
+        45deg,
+        #b294ff,
+        #57e6e6,
+        #feffb8,
+        #57e6e6,
+        #b294ff,
+        #57e6e6
+    );
+    color: transparent;
+    background-size: 500% auto;
+    animation: gradient 3s linear infinite;
+    -webkit-background-clip: text;
 }
 
 .subtitle {

@@ -18,18 +18,14 @@ function init() {
   const title = document.querySelector(".title");
   const subtitle = document.querySelector(".subtitle");
   const description = document.querySelector(".description")
-  const box_items = document.querySelector(".box-items")
 
   setTimeout(() => {
     title.classList.add("change");
       setTimeout(() => {
         subtitle.classList.add("change");
-          setTimeout(() => {
-            box_items.classList.add("change");
             setTimeout(() => {
               description.classList.add("change");
             }, 200)
-          }, 200)
       }, 200)
   }, 200)
 }
